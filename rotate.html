@@ -1,0 +1,92 @@
+       <!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width",initial scale="1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="Stylesheet" href="Style.css">
+        <title>Animations</title>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="Java Site.html" class="material-icons">home</a></li>
+              <li><a href="Plans.html">Plans</a></li>
+              <li><a href="Number Game 2.html">Number Game</a></li>
+              <li><a href="Hidden Box.html"> Hiden Box</a></li>
+              <li><a href="The Square.html"> The Square</a></li>
+              <li><a href="Bounce.html"> Pure Animation</a></li>
+              <li><a href="rotate.html"> Coming soon</a></li>
+              <li><a href="Test Page.html"> Tests </a></li>
+            </ul>
+        </div>
+
+
+    <body>
+
+
+
+    </body>
+</html>
+		<style type="text/css">
+			.loading {
+				background: #094CFA;
+				width: 60px;
+				height: 60px;
+                margin-top: 10%;
+                margin-bottom: auto;
+                margin-left: auto;
+                margin-right: auto;
+				border-radius: 4px;
+				/* Here we declare our inline animation */
+				animation: rotate 3s linear infinite;
+			}
+
+			/* Here we define our animation with the name "rotate" */
+			@keyframes rotate {
+				from {
+					transform: rotate(0deg);
+				}
+
+				to {
+					transform: rotate(359deg);
+				}
+
+			}
+
+            .loading:active {
+                animation-play-state: paused;
+            }
+            .loading:hover {
+                cursor:pointer;
+
+            }
+
+
+		</style>
+	</head>
+	<body>
+        <div class="more">More animations are coming soon!<br><br>
+            You can expect this later than the stuff,<br>
+            but earlier than the JavaScript.
+        </div>
+
+
+		<div class="loading"><div class="smiley">&#128522</div></div>
+
+        <style>
+            .more {
+                margin-top: 2%;
+                font-family: copperplate,copperplate gothic light;
+                font-size: large;
+                text-align: center;
+            }
+
+            .smiley {
+                padding-top: 25%;
+                text-align: center;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+        </style>
+	</body>
+</html>

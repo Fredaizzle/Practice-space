@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+  <title>Find The Box</title>
+  <meta name="viewport" content="width=device-width",initial scale="1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="Stylesheet" href="Style.css">
+    <div class="navbar">
+      <ul>
+        <li><a href="Java Site.html" class="material-icons">home</a></li>
+      <li><a href="Plans.html">Plans</a></li>
+      <li><a href="Number Game 2.html">Number Game</a></li>
+      <li><a href="Hidden Box.html"> Hiden Box</a></li>
+      <li><a href="The Square.html"> The Square</a></li>
+      <li><a href="Bounce.html"> Pure Animation</a></li>
+      <li><a href="rotate.html"> Coming soon</a></li>
+      <li><a href="Test Page.html"> Tests </a></li>
+    </ul>
+  </div>
+
+    <body>
+        <div class="intro">
+          <br>
+          Somewhere on this page is a hidden box! <br> Can you find it?
+        </div>
+
+
+        <div class="buttonshide">
+        <div class="sortuva">Sortuva Button</div>
+        <div class="not "id="not1"> OK so it's not a button. 
+          <br>It couldn't be THAT easy<br> &#128513</div>
+        </div>
+        
+        
+        <br><br><br><br><br><br>
+        <div class="invisibox">
+        <div class="colorbox"><div class="text">This invisible box is made
+          using the CSS properties transform and transition 
+          <br><br>
+          (This message is sponsored by coffee)</div></div>
+      </div>
+
+        <style>
+
+          .intro {
+            text-align: center;
+            margin-top: 20px;
+            font-family: copperplate,copperplate gothic light;
+          }
+
+          .invisibox{
+            position: relative;
+            width: 15px;
+            height: 15px;
+            margin: auto;
+            margin-top: 750px;
+            margin-bottom: 15%;
+            margin-left: 300px;
+          }
+
+          .colorbox {
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            color: rgb(200, 214, 210);
+            transition: 3s;
+            cursor: grabbing;
+          }
+
+          .invisibox:hover .colorbox {
+            transform: translateY(-90%);
+            background-color: mediumseagreen;
+            border-style: double;
+            color: black;
+          }
+
+          .text {
+            text-align: center;
+            margin-top: 20%;
+            padding-left: 3px;
+            padding-right: 3px;
+          }
+
+          .buttonshide {
+            width: 440px;
+            height: 150px;
+            margin-left: -300px;
+            transition: 1s;
+          }
+
+          .buttonshide:hover {
+            transform: translateX(300px);
+            cursor: pointer;
+          }
+
+          .sortuva {
+            position: relative;
+            border-radius: 10px;
+            background-color: rgba(127, 146, 146, 0.26);
+            height: 20px;
+            width: 170px;
+            text-align: center;
+            margin-top: 70px;
+            margin-left: 400px;
+            padding-top: 3px;
+            padding-bottom: 4px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+             'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            transition: 1s;
+          }
+
+          .not {
+            width: 250px;
+            margin-top: -39px;
+            text-align: center;
+          }
+
+
+        </style>
+    </body>
+  </head>
+
+</html>

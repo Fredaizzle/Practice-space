@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+    <head>
+    <title>Seemingly Endless Things</title>
+    <meta name="viewport" content="width=device-width",initial scale="1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="Stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+        <div class="navbar">
+            <ul>
+                <li><a href="Java Site.html" class="material-icons">home</a></li>
+            <li><a href="Plans.html">Plans</a></li>
+            <li><a href="Number Game 2.html">Number Game</a></li>
+            <li><a href="Hidden Box.html"> Hiden Box</a></li>
+            <li><a href="The Square.html"> The Square</a></li>
+            <li><a href="Bounce.html"> Pure Animation</a></li>
+            <li><a href="rotate.html"> Coming soon</a></li>
+            <li><a href="Test Page.html"> Tests </a></li>
+            </ul>
+        </div>
+    </head>
+    <body>
+        <div class="endlesssidebar">
+            
+            <div class="endlesssidebartext">
+            Somewhere in all these things is a hidden button that will show you even MORE things!
+            <br><br>
+            When it comes to things, the sky is the limit &#128525<br><br>
+            <img class="clouds" src="https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687" alt="clouds">
+            </div>
+
+        </div>
+
+        <style>
+            .endlesssidebar {
+                position: absolute;
+                width: 800px;
+                height: 300px;
+                top: 0;
+                left: 0;
+                margin-top: 85px;
+                margin-left: 29%;
+                overflow-y: scroll;
+                overflow-x: hidden;
+
+                border-style:groove;
+                border-color: rgb(196, 201, 206);
+                border-radius: 12px;
+
+
+
+            }
+
+            .endlesssidebartext {
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-top: 6px;
+                text-align: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                
+            }
+
+            .clouds {
+                height: 300px;
+                width: 760px;
+                margin-top: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+
+                border-radius: 10px;
+            }
+
+
+        </style>
+
+    <div class="things">
+
+
+        <div class="t1">Things</div>
+        <div class="t2">tHings </div>
+        <div class="t3">thIngs</div>
+        <div class="t4">thinGs</div>
+        <div class="t5">thingS</div>
+        <div class="t6">things</div>
+        <div class="t7">things!</div>
+        <div class="t8">T<br>H<br>I<br>N<br>G<br>S<br>!</div>
+        <div class="t9">THINGS</div>
+        <button onclick="topFunction()" id="myBtn" class="tbutton">more things?</button>
+
+        <script>
+                        //scroll to top button
+            mybutton = document.getElementById("myBtn");
+
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            } else {
+            mybutton.style.display = "none";
+            }
+            }
+
+            function topFunction() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0; 
+            }
+
+
+        </script>
+    </div>
+
+    </body>
+
+    <style>
+
+        .things {
+            text-align: center;
+            margin-top: 450px;
+        }
+
+        .t1 {
+            color: blue;
+            margin-top: 10px;
+            font-size: 40px;
+        }
+
+        .t2 {
+            color: chocolate;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        .t3 {
+            color: darkcyan;
+            margin-top: 10px;
+            font-size: xx-large;
+        }
+
+        .t4 {
+            color: crimson;
+            margin-top: 10px;
+            font-size: 75px;
+        }
+
+        .t5 {
+            color:mediumaquamarine;
+            margin-top: 10px;
+            font-size: 500px;
+            font-family: copperplate,copperplate gothic light;
+        }
+
+        .t6 {
+            color: fuchsia;
+            margin-top: 40px;
+            text-align: left;
+            margin-left: 400px;
+        }
+
+        .t7 {
+            color: gray;
+            margin-top: 40px;
+            text-align: right;
+            margin-right: 400px;
+        }
+
+        .t8 {
+            color:indigo;
+            margin-top: 10px;  
+            font-size: xx-large;
+        }
+
+        .t9 {
+            color: maroon;
+            margin-top: 10px;
+            font-size: 1000px;
+        }
+
+        .tbutton {
+            position: relative;
+            left: 920px;
+            bottom: 587px;
+            cursor: pointer;
+            background-color: maroon;
+            color: maroon;
+            border-style: none;
+
+        }
+
+        .tbutton:hover {
+            color: black;
+        }
+
+    </style>
+
+</html>

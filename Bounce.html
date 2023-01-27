@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width",initial scale="1.0">
+  <title>Bouncey</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="Stylesheet" href="Style.css">
+  <div class="navbar">
+    <ul>
+      <li><a href="Java Site.html" class="material-icons">home</a></li>
+    <li><a href="Plans.html">Plans</a></li>
+    <li><a href="Number Game 2.html">Number Game</a></li>
+    <li><a href="Hidden Box.html"> Hiden Box</a></li>
+    <li><a href="The Square.html"> The Square</a></li>
+    <li><a href="Bounce.html"> Pure Animation</a></li>
+    <li><a href="rotate.html"> Coming soon</a></li>
+    <li><a href="Test Page.html"> Tests </a></li>
+  </ul>
+</div>
+</head>
+    <body>
+
+      <div class="animations">Welcome to the animations lab!<br>
+        Click & hold the animations to watch them do their thing 
+      </div>
+
+      <br><br><br><br><br>
+      <div class="container">
+      <h1 class="text">Bounce</h1>
+      <br><br><br>
+      <div class="ball">
+      </div>
+      <div class="ground"></div>
+
+      <br><br><br><br><br>
+      <div class="container2">
+      <h1 class="text2">Flip</h1>
+      <br><br><br>
+      <div class="coin"></div>
+      <div class="hand"></div>
+
+
+      <br><br><br><br><br>
+      <div class="container3">
+      <h1 class="text2">Black Hole</h1>
+      <br><br><br>
+      <div class="hole"><div class="blacktext"><br><br><br>&#128556</div></div>
+      <div class="stand"></div>
+
+      <br><br><br><br><br>
+
+      
+
+    <style>
+
+
+      .animations {
+        margin-top: 70px;
+        text-align: center;
+        font-family: copperplate,copperplate gothic light;
+
+      }
+
+      .ground {
+        width: 250px;
+        height: 5px;
+        background-color: black;
+        margin-top: -80px;
+        margin-left: auto;
+        margin-right:auto;
+      }
+
+      .ball {
+        width: 150px;
+        height: 150px;
+        background-color: rgb(63, 148, 84);
+        margin: 80px auto;
+        cursor: pointer;
+        border-radius: 50%;
+        background-image: radial-gradient(blue,green);
+      }
+
+      .ball:active {
+        animation: bounce1 1.2s linear;
+        animation-iteration-count: infinite;
+        cursor: grabbing;
+      }
+      
+
+      @keyframes bounce1{
+        50% {transform: translateY(-9em);}
+        60% {animation-timing-function: infinite ease-in-out;}
+
+      }
+
+
+
+
+
+
+
+
+      .container2 {
+        margin-top: 140px;
+      }
+
+      .hand {
+        width: 250px;
+        height: 5px;
+        background-color: black;
+        margin-top: -40px;
+        margin-left: auto;
+        margin-right:auto;
+      }
+
+      .coin {
+        width: 150px;
+        height: 150px;
+        margin: 80px auto;
+        cursor: pointer;
+        border-radius: 50%;
+        background-image: linear-gradient(gold,black);
+        transition: all 2s ease-in-out;
+      }
+
+      .coin:active {
+        animation: moveheight 2s linear;
+        animation-iteration-count: infinite;
+        cursor: grabbing;
+      }
+      
+
+      @keyframes moveheight{
+        50% {transform: rotateX(359deg);}
+      }
+
+      
+
+
+
+
+
+
+
+      .container3 {
+        margin-top: 200px;
+      }
+
+      .blacktext {
+        height: 140px;
+        text-align: center;
+      }
+
+      .stand {
+        width: 250px;
+        height: 5px;
+        background-color: black;
+        margin-top: -80px;
+        margin-left: auto;
+        margin-right:auto;
+      }
+
+      .hole {
+        width: 150px;
+        height: 150px;
+        background-color:black;
+        margin: 80px auto;
+        cursor: pointer;
+        border-radius: 50%;
+      }
+
+      .hole:active {
+        animation: blackhole 1.5s linear;
+        animation-iteration-count: infinite;
+        cursor: grabbing;
+      }
+      
+
+      @keyframes blackhole{
+        60% {animation-timing-function: infinite ease-in;}
+        32% {transform: scale(1,0.001);}
+        73% {animation-timing-function: infinite ease-in;}
+        72% {transform: scale(-2,0.001);}
+
+
+      }
+
+    </style>
+
+
+
+</body>
+
+</html>

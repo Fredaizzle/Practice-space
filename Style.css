@@ -1,0 +1,100 @@
+
+.head {
+    align-content: center;
+    left: 0px;
+    right: 0px;
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(39, 35, 35);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-blend-mode:hard-light;
+    color: rgb(228, 234, 240);
+}
+
+a {
+    color: rgb(119, 112, 112);
+    transition: all .2s linear;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: azure;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+li {
+    display: inline;
+    padding-inline-start: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-family: copperplate,copperplate gothic light;
+}
+
+html {
+    background-color: rgb(200, 214, 210);
+    overflow-x: hidden;
+}
+
+.Flexbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    border-style:dotted;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: rgb(153, 202, 245);
+}
+
+.text1 {
+    text-align: center;
+}
+
+.text2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 80px;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+
+summary {
+    color: blue;
+}
+
+.buttonthings:hover {
+    cursor: pointer;
+}
+
+.thingsbutton:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    max-width: none;
+    margin-top: -0.5%;
+    margin-left: -10px;
+    margin-right: -10px;
+    overflow-x: hidden;
+}
+
